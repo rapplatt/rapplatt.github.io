@@ -1,0 +1,29 @@
+title:              Rebecca Platt
+email:
+description:        Writing Stories and Code
+author:             Rebecca Platt
+baseurl:            "/"
+url:                "https://rebeccaplatt.com"
+
+# Social Profiles
+twitter_username:   ItsTechBec
+github_username:    rapplatt
+facebook_username:  
+instagram_username:  
+linkedin_username:  rebecca-platt
+notist_username:    rapplatt
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   G-LEDQ9XSXSD 
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+  - jekyll-seo-tag
+
+theme: jekyll-theme-clean-blog

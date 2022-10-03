@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-03T23:06:18+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rebecca Platt</title><subtitle>Writing Stories and Code</subtitle><author><name>Rebecca Platt</name></author><entry><title type="html">How I Set Up My Website Using GitHub Pages, Jekyll, and Others</title><link href="http://localhost:4000/2022/10/03/How-I-Built_This-Site.html" rel="alternate" type="text/html" title="How I Set Up My Website Using GitHub Pages, Jekyll, and Others" /><published>2022-10-03T22:58:00+08:00</published><updated>2022-10-03T22:58:00+08:00</updated><id>http://localhost:4000/2022/10/03/How-I-Built_This-Site</id><content type="html" xml:base="http://localhost:4000/2022/10/03/How-I-Built_This-Site.html"><![CDATA[<div class="row d-flex justify-content-center">
+<div class="tweet" data-style="">
+    <div class="tweet-header">
+      <div class="tweet-author">
+          <img class="tweet-author-image" src="https://pbs.twimg.com/profile_images/994908795590475777/Z51TlGLP_normal.jpg">
+            <div class="tweet-author-info">
+              <div class="tweet-author-title" <p="">Rebecca 👩🏼‍💻<p></p>
+              </div>
+              <a class="tweet-author-handler" target="_blank" href="https://twitter.com/ItsTechBec">@ItsTechBec
+              </a>
+            </div>
+      </div>
+      <svg class="tweet-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23Z"></path></svg>
+    </div>
+    <div class="tweet-content">
+      Oh dear. I have the urge to start a blog
+    </div>
+
+    <div class="tweet-info">
+    <svg class="tweet-info-favourite" width="24" height="24" viewBox="0 0 24 24"><path class="fill-current" d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.813-1.148 2.353-2.73 4.644-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.375-7.454 13.11-10.037 13.156H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.035 11.596 8.55 11.658 1.52-.062 8.55-5.917 8.55-11.658 0-2.267-1.822-4.255-3.902-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.015-.03-1.426-2.965-3.955-2.965z"></path></svg>
+    <span>1</span>
+    <div class="tweet-info-date"><a href="https://twitter.com/ItsTechBec/status/1566023907559481346" target="_blank">11:22 AM · Sep 3, 2022</a></div>
+    </div>
+  </div> 
+</div>
+<p>This website and blog are the results of a lucky coincidence. I was browsing online thinking about blogging and saw that the domain <a href="https://rebeccaplatt.com" target="_blank">rebeccaplatt.com</a> was available. Given that many others also share my name, I thought it was a wise choice to buy it while I could.
+<br><i>(Note: to any other Rebecca Platts reading this - hello!)</i></p>
+<p>Since I was now in possession of this domain, it would be a waste not to use it. But how to build the site?</p>
+<p>I looked into a few options for website building (like Squarespace which I have used before), but they were not <s>free</s> quite what I was looking for. 
+<p>It was at this time that <a href="https://blog.heroku.com/next-chapter">Heroku announced that they were no longer offering free product plans</a> This caused a lot of commotion online due to the large number of people affected. One tweet about it, in particular, stood out: 
+<p>
+    <div class="row d-flex justify-content-center">
+    <div class="tweet " data-style="">
+        <div class="tweet-header">
+          <div class="tweet-author">
+              <img class="tweet-author-image" src="https://pbs.twimg.com/profile_images/1501313897202077705/UUciK62t_normal.jpg">
+                <div class="tweet-author-info">
+                  <div class="tweet-author-title" <p="">Danny Thompson<p></p>
+                    
+                  </div>
+                  <a class="tweet-author-handler" target="_blank" href="https://twitter.com/DThompsonDev">@DThompsonDev
+                  </a>
+                </div>
+          </div>
+          <svg class="tweet-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" width="32" height="32" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24"><path fill="currentColor" d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23Z"></path></svg>
+        </div>
+          
+        <div class="tweet-content">
+          Heroku is ending their free tier and some folks are freaking out. It is ok!<br><br>Here are six places you can host your website for free!<br><br>- Firebase<br>- Vercel<br>- Cloudflare Pages<br>- AWS<br>- Netlify<br>- Github Pages
+          
+          
+           
+        </div>
+    
+        
+        <div class="tweet-info">
+        <svg class="tweet-info-favourite" width="24" height="24" viewBox="0 0 24 24"><path class="fill-current" d="M12 21.638h-.014C9.403 21.59 1.95 14.856 1.95 8.478c0-3.064 2.525-5.754 5.403-5.754 2.29 0 3.83 1.58 4.646 2.73.813-1.148 2.353-2.73 4.644-2.73 2.88 0 5.404 2.69 5.404 5.755 0 6.375-7.454 13.11-10.037 13.156H12zM7.354 4.225c-2.08 0-3.903 1.988-3.903 4.255 0 5.74 7.035 11.596 8.55 11.658 1.52-.062 8.55-5.917 8.55-11.658 0-2.267-1.822-4.255-3.902-4.255-2.528 0-3.94 2.936-3.952 2.965-.23.562-1.156.562-1.387 0-.015-.03-1.426-2.965-3.955-2.965z"></path></svg>
+        <span>3,370</span>
+        <div class="tweet-info-date"><a href="https://twitter.com/DThompsonDev/status/1562889136091979776" target="_blank">7:46 PM · Aug 25, 2022</a></div>
+        </div>
+        
+      </div> 
+      </div>
+<p>Most of these options I had heard of before - but not GitHub Pages. GitHub, sure. You would be hard-pressed to find a software developer that didn’t know of GitHub. So what is the ‘Pages’ feature? 
+<p><blockquote class="blockquote">GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.</blockquote>
+    <figcaption>— <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages" target="_blank">About GitHub Pages</a></figcaption>
+<p>For those not aware, on a ‘static’ website the page you see in your browser is the same as what is stored on the server. This is in contrast to ‘dynamic’ websites, which generate the page to show you based on real-time requests. They can be more complicated than static websites, but they do allow for more features - like personalisation. I don’t need this site to be dynamic, so I decided to try GitHub Pages. 
+<p>Following the set-up guide <a href="https://jekyllrb.com/docs/step-by-step/01-setup/" target="_blank">here</a>, I installed Ruby and Jekyll without issue. Since it was so easy, I decided to go straight to plugging in a template that I liked the look of and winging it. 
+<p>That did not work. 
+<p>So instead, I read through the <a href="https://jekyllrb.com/docs/step-by-step/01-setup/" target="_blank">Jekyll documentation</a>, and this time followed along with their tutorial. But it still wasn’t working. It seemed that no matter what I did, I kept getting the error “cannot load such file -- webrick (LoadError)”.
+<p>After spending far too long on the issue, I found the answer <a href=" https://github.com/jekyll/jekyll/issues/8523" target="_blank">here</a>. 
+<p>Now that things were starting to work, I decided to use a <a href="https://startbootstrap.com/previews/clean-blog-jekyll" target="_blank">prebuilt blog template</a> and customise from there. 
+<h2 class="section-heading">Site Design and Customisation</h2>
+<p>I had some challenges when I was customising the site - the first of which was certain <a href="https://fontawesome.com/" target="_blank">font awesome</a> icons not working. The theme I was using restricted the use of font awesome to version 4.7.0 - and I wanted to use an icon from a later version. 
+<p>Then came the trouble with images. Not a technical issue this time, but an aesthetic one. I did not particularly want to plaster my face everywhere. While I could use stock images, I didn’t even know which stock images I would want. 
+<p>Enter, AI Art. After all, since some articles are going to be tech-based, why not have fun and have the images used be AI generated? I tried a few different tools and the winner was <a href=" https://app.wombo.art/" target="_blank">Dream by WOMBO</a>. Almost every image on this site so far was generated using that tool, and I like the results.
+<p>Then I wrote the About and Publish Works pages [Links], since having some content to work with would help with testing the rest of the website design. 
+<p>It was about this time that I came across <a href="https://godly.website/" target="_blank">Godly</a>, a website full of amazing website designs. I wanted to drop everything I had done so far and start from scratch with a new fantastical design. It was difficult, but in the end, I decided to not overhaul the project and get distracted by ‘shiny things’. This site was almost done, it would be a shame to not deploy it now.
+<p>I added Google Analytics and started looking at how to allow people to comment on posts. Which led to the next ‘shiny thing’ to get distracted by, <a href="https://staticman.net/docs/" target="_blank">Staticman</a>. An Open Source application that lets static websites act dynamically? Which would also allow for all comments to be stored in the same GitHub repository as the website (so I didn’t have to rely on a third party)? It sounded great. 
+<p>Unfortunately, for Staticman to work you need to host an instance of it somewhere - with most tutorials recommending Heroku. Not wanting to do that, I thought about how much work did I really want to do to get comments working. I was getting into some serious <a href="https://en.wikipedia.org/wiki/Scope_creep" target="_blank">scope creep</a> and decided to scale it back a bit. 
+<p>Instead of Staticman, I ended up using <a href="https://disqus.com/" target="_blank">Disqus</a>. The free version does have ads, but I have tried to make them as unobtrusive as possible. The actual process for installing Disqus was easy: 
+<ol>
+    <li>Sign up for an account</li>
+    <li>Copy the “Universal Code” HTML snippet from their site</li>
+    <li>Add the HTML to my template file (so that it would be automatically included on every blog post created)</li>
+    <li>Boom. Done. </li>
+</ol>
+Finally, it was time to think about how to allow people to subscribe. Learning from previous mistakes of overcomplicating things, this time I went straight to using the option most recommended in my searches: <a href="https://mailchimp.com/" target="_blank">MailChimp</a>. While I was adding the subscribe link to the website I realised the only information I needed to collect was the email address. Sure, I could gather names as well and personalise the emails, birthdays to send birthday messages, and any number of other pieces of data… but with how many high-profile data leaks there have been lately, I don’t need to be increasing risk. Just your email is fine for me, thanks. 
+<p>With all that, the website is ready! In summary, it was built using:
+<ul>
+    <li><a href="https://pages.github.com/" target="_blank">GitHub Pages</a></li>
+    <li><a href="https://www.ruby-lang.org/en/" target="_blank">Ruby</a></li>
+    <li><a href="https://jekyllrb.com/" target="_blank">Jekyll</a></li>
+    <li><a href="https://marketingplatform.google.com/about/analytics/" target="_blank">Google Analytics</a></li>
+    <li><a href="https://disqus.com/" target="_blank">Disqus</a></li>
+    <li>and <a href="https://mailchimp.com/" target="_blank">MailChimp</a>.</li>
+</ul>
+
+I will keep changing things on the site, but for now, it’s in a state that is ready to deploy. So welcome to the website!
+<p/>]]></content><author><name>Rebecca Platt</name></author><summary type="html"><![CDATA[Rebecca 👩🏼‍💻 @ItsTechBec Oh dear. I have the urge to start a blog]]></summary></entry></feed>
