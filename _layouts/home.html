@@ -11,9 +11,11 @@ layout: default
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
+        <!-- <div class="col-lg-8 col-md-10 mx-auto">-->
+          <div class="col-lg-11 col-md-10 mx-auto">
           <div class="page-heading">
             <h1>{{ site.description }}</h1>
+            <span class="subheading">(Not necessarily at the same time)</span>
             <!-- {% if site.description %}
             <span class="subheading">{{ site.description }}</span>
             {% endif %}-->
@@ -41,12 +43,12 @@ layout: default
             <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
             {% endif %}
           </a>
-          <p class="post-meta">Posted by
+          <p class="post-meta">Posted <!--by
             {% if post.author %}
             {{ post.author }}
             {% else %}
             {{ site.author }}
-            {% endif %}
+            {% endif %}-->
             on
             {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}            
           </p>

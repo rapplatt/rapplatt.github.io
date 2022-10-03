@@ -12,4 +12,12 @@ footer {
         margin-bottom: 0;
         text-align: center;
     }
+
+    a{
+        color: $gray-900; 
+        &:focus,
+        &:hover {
+            color: $primary;
+        }
+    }
 }

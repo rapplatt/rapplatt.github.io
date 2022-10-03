@@ -14,7 +14,7 @@ linkedin_username:  rebecca-platt
 notist_username:    rapplatt
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+google_analytics:   G-LEDQ9XSXSD 
 
 # Build settings
 markdown:           kramdown
@@ -24,5 +24,6 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+  - jekyll-seo-tag
 
 theme: jekyll-theme-clean-blog
