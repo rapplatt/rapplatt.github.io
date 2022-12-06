@@ -1,4 +1,108 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-05T22:45:32+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rebecca Platt</title><subtitle>Writing Stories and Code</subtitle><author><name>Rebecca Platt</name></author><entry><title type="html">Letters From My Good Friend Jonathan Harker</title><link href="http://localhost:4000/2022/11/05/Dracula-Daily-Review.html" rel="alternate" type="text/html" title="Letters From My Good Friend Jonathan Harker" /><published>2022-11-05T12:58:00+08:00</published><updated>2022-11-05T12:58:00+08:00</updated><id>http://localhost:4000/2022/11/05/Dracula-Daily-Review</id><content type="html" xml:base="http://localhost:4000/2022/11/05/Dracula-Daily-Review.html"><![CDATA[Prior to this year, I had never read Dracula by Bram Stoker. It was not on my "to read" list, and being notoriously uneasy with horror films I had never given it a second thought.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-12-06T22:51:43+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rebecca Platt</title><subtitle>Writing Stories and Code</subtitle><author><name>Rebecca Platt</name></author><entry><title type="html">Exploring the Future of Software Development at NDC Melbourne</title><link href="http://localhost:4000/2022/12/06/NDC-Review.html" rel="alternate" type="text/html" title="Exploring the Future of Software Development at NDC Melbourne" /><published>2022-12-06T12:58:00+08:00</published><updated>2022-12-06T12:58:00+08:00</updated><id>http://localhost:4000/2022/12/06/NDC-Review</id><content type="html" xml:base="http://localhost:4000/2022/12/06/NDC-Review.html"><![CDATA[Earlier this year, I went to and spoke at NDC Melbourne. 
+<p/>
+<h2>What is NDC?</h2>
+A technical conference - although it is now a worldwide event, NDC stands for "Norwegian Developers Conference" to highlight its origins.
+<p/>
+<blockquote class="blockquote">"Since its start-up in Oslo 2008, the Norwegian Developers Conference (NDC) quickly became Europe`s largest conferences for .NET & Agile open space development. However, since then, the conference has come a long way.
+
+NDC conferences are currently running in Oslo (since 2008), London (since 2013) and Sydney (from August 2016). 
+[...] Even though the majority of NDC's delegates have a .NET background, NDC are no longer solely focusing on .NET and Agile, but all technologies that are interesting for developers."</blockquote>
+<figcaption>— <a href="https://www.linkedin.com/company/ndc-conferences/"target="_blank">NDC via LinkedIn</a></figcaption>
+<p>
+It's easy to miss out on hearing about the newest developments in the realm of technology, so tech conferences in general are a wonderful opportunity to learn about them.
+I find that it reflects a quote often attributed to William Gibson; "the future is already here, it's just not evenly distributed yet".
+<p/>
+The entire event was amazing, and thankfully the conference organisers made all of the talks freely accessible online.
+The complete playlist of talks is available <a href="https://youtube.com/playlist?list=PL03Lrmd9CiGccT0ERZ9YywROnQryo6gLG"target="_blank">here</a>:
+<p align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL03Lrmd9CiGccT0ERZ9YywROnQryo6gLG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<br/>
+Richard Campbell's keynote, "The Next Decade of Software Development," was a stand-out presentation covering an overview of all the interesting ways that technology has changed over the last several decades, complete with predictions for the future for the next ten years.
+<br/>
+<br/>
+There was a lot of common sense in this discussion, such the idea that some things will not change any time soon, like the proliferation of cloud computing, mobile technology, and the use of "catastrophic amounts of data."
+<br/>
+<br/>
+Other things however are likely to change, like:
+<ul>
+    <li>The advancement of silicon chip development possibly slowing down due to reaching limits in the number of transistors that can fit within a space at an atomic level. This could lead to a shift in emphasis away from obtaining more processing power and towards optimising and refining software resource usage, similar to how software development was done when processing power was more limited. As Mark Twain once said, “History never repeats itself, but it does often rhyme.”
+    <li>The use of 5G everywhere. He also provided a clear explanation of the distinction between 4G and 5G, which basically boils down to the latter's higher frequency, which enables for more data to be transmitted in each cycle but also reduces its range and weakens its penetrating power. Therefore, 5G has the capacity to carry more data but it also has increased disruption risk.
+</ul>
+Then there are the pandemic impacts, such as: 
+<ul>
+    <li>The development of the cloud has advanced significantly as a result of everyone working from home, and as a result, it may become more standardised and controlled as it develops into a utility.
+    <li>There were also economic impacts, with recessions likely in many countries. Which is why it's important to know your ROI. You should understand how the business you work for makes money, and how your project relates to that. Because companies will be looking to reduce costs, and that can include reducing headcounts. It's interesting to note that since this talk was given there have been high-profile layoffs at quite a few tech companies (such as <a href="https://www.nytimes.com/2022/11/14/technology/amazon-layoffs.html"target="_blank">Amazon</a>, <a href="https://www.nytimes.com/2022/11/09/technology/meta-layoffs-facebook.html"target="_blank">Meta</a>, and <a href="https://www.theguardian.com/technology/2022/nov/04/twitter-layoffs-elon-musk-revenue-drop"target="_blank">Twitter</a>).
+</ul>
+Finally there is the 'future tech' section, or more accurately the 'just really cool' section, covering aspects of AI (such as GitHub Copilot) and the nature of quantum computing and the problems that it can more easily solve. 
+<p align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/reL-ke2J03o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<p/>
+Following that, here are some other stand-out talks I liked: 
+<p/>
+<h3>Unleash the Power of Visual Studio Code - Aaron Powell</h3>
+<blockquote class="blockquote">"VS Code is hot, there's no doubt about it being an utterly amazing editor, but I ask you, are you using it to its full potential? Let's go on a journey together and look to unlock the real power that you can get out of VS Code. Whether it's with shortcuts or extensions, environment standardisation and remote development, collaboration to integrations, there's so many things to uncover that can take you from a user to a pro in no time."</blockquote>
+<p align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/I5kx__o4S3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+
+<p/>
+<h3>Diamonds are forever, so are URLs - Wing Ho</h3>
+<blockquote class="blockquote">"Imagine putting up signage saying “Puppies this way, just around the corner”. You follow that sign. Right as you turn the corner, you’re met with a 404 mole rat instead. A rush of realisation, disappointment, anger, ensures.
+URLs are forever. Or so they should be. This is the experience you subject your users to, when links aren’t given the love they need. I’ll show you how you could be thinking about your app/website URLs and routes when you are crafting them, and strategies on how to migrate old URLs rather than leaving your users in disarray."</blockquote>
+<p align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/XDJ7_UvRjis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+<p/>
+<h3>Interviewing like a Boss - Kris Howard</h3>
+<blockquote class="blockquote">"If you've been in the tech industry for any length of time, you've probably been asked to participate in interviewing. Lucky folks will receive some basic training from their employer, but most are expected to just figure it out. It can be time-consuming, nerve-wracking, and tedious. You probably don't enjoy doing it, and that can lead to bad hires and painful experiences. Kris has participated in more than 250 interviews at AWS - as both an interviewer and a hiring manager - and has finally come to embrace the process. She'll provide practical tips you can use to conduct more effective interviews, saving you time and making the whole process a lot more enjoyable."</blockquote>
+<p align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/IJ8Yb1uMZKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+<p/>
+<h3>Space in the 2020's - Richard Campbell</h3>
+<blockquote class="blockquote">"Are the 2020s the decade where regular people get to go into space? Join Richard Campbell as he assembles all the current developments in space flight to look at what the next few years could offer to a regular person on a once-in-a-lifetime trip. Will there be space hotel in orbit around the Earth? What about a resort on the Moon? Could we go further than that? And, most importantly… how much will it cost? The potential is huge, and the impact on mankind is hard to even imagine - maybe science fiction is coming true?"</blockquote>
+<p align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/o6cK-m-2stg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+<p/>
+<h3>Mobile App Accessibility - Allison Ravenhall</h3>
+<blockquote class="blockquote">"Boring title, fun session: iOS and Android tech demos!
+See how assistive technologies work with mobile apps. Screen readers, external keyboards, extreme text size settings, and speech interfaces.
+Good, bad, and unusable experiences across a bunch of apps. Names will be named, some may be shamed. Will yours be in the mix?
+Get a glimpse at the different ways people are using your app."</blockquote>
+<p align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZR8MHFTEtlc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+<p/>
+<h3>Building a Raspberry Pi Robot Arm with NET 6, Blazor and SignalR - Peter Gallagher</h3>
+<blockquote class="blockquote">"In this session we'll run through everything needed to build a Robot Arm with a Raspberry Pi, .NET 6 a Blazor App and SignalR.
+We'll begin by seeing how easy it is to install .NET 6.
+Then we'll see how we've connected up the various components to our Raspberry Pi.
+Next we'll spin up a console application to explore how we can control the GPIO on the Pi.
+We'll then examine the code to start moving the connected servos for our Raspberry pi based Robot Arm.
+Next we'll look at a simple Blazor and SignalR app to control our robot remotely!
+Finally we'll have a look at how we can use an Oculus Quest 2 to interact with our Robot Arm in VR!
+This session will appeal to all knowledge levels. A working knowledge of programming will help, but all the code will be shared on GitHub!"</blockquote>
+<p align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BfR08xNTL4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+<p/>
+Finally, here's mine: 
+<h3>210 x 297 UX Design for the Physical World - Rebecca Platt</h3>
+<p align="center">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CwTFVvSC2N0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<blockquote class="blockquote">"We know the importance of UX, and there is a lot of information out there about good design principles - when on a digital screen. But what about one of the most prevalent interfaces that we all encounter? Whether it's the contract for your mortgage or bills from suppliers, printed documents are still one of the major ways in which we interact with our users. This talk covers design issues and tips unique to the UX of the physical printed world.
+(210 x 297 are the dimensions of an A4 page in mm.)"</blockquote>
+<p/>]]></content><author><name>Rebecca Platt</name></author><summary type="html"><![CDATA[Earlier this year, I went to and spoke at NDC Melbourne. What is NDC? A technical conference - although it is now a worldwide event, NDC stands for "Norwegian Developers Conference" to highlight its origins. "Since its start-up in Oslo 2008, the Norwegian Developers Conference (NDC) quickly became Europe`s largest conferences for .NET & Agile open space development. However, since then, the conference has come a long way.]]></summary></entry><entry><title type="html">Letters From My Good Friend Jonathan Harker</title><link href="http://localhost:4000/2022/11/05/Dracula-Daily-Review.html" rel="alternate" type="text/html" title="Letters From My Good Friend Jonathan Harker" /><published>2022-11-05T12:58:00+08:00</published><updated>2022-11-05T12:58:00+08:00</updated><id>http://localhost:4000/2022/11/05/Dracula-Daily-Review</id><content type="html" xml:base="http://localhost:4000/2022/11/05/Dracula-Daily-Review.html"><![CDATA[Prior to this year, I had never read Dracula by Bram Stoker. It was not on my "to read" list, and being notoriously uneasy with horror films I had never given it a second thought.
 <p/>
 Then I discovered Dracula Daily.
 <p/>
