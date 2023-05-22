@@ -14,8 +14,78 @@ layout: default
         <!-- <div class="col-lg-8 col-md-10 mx-auto">-->
           <div class="col-lg-11 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>{{ site.description }}</h1>
-            <span class="subheading">(Not necessarily at the same time)</span>
+            <style>
+              .title-element {
+                white-space: normal;
+                display: inline-block;
+                max-width: 100%;
+                transition: font-size 0.3s;
+              }
+          
+              #title-text {
+                color: white;
+              }
+          
+              #title-verb {
+                color: #67AAF9;
+              }
+          
+              .fixed-size-div {
+                overflow: hidden;
+              }
+            </style>
+            <h1>Hi, I'm Rebecca</h1>
+            <div class="fixed-size-div" id="fixed-size-div">
+              <h1 id="title">
+                <span id="title-text" class="title-element">I'm</span>
+                <span id="title-verb" class="title-element">Developing Software</span>
+              </h1>
+            </div>
+          
+            <script>
+              // Array of different titles
+              var titles = [
+                { text: "I'm ", verb: "Writing Stories" },
+                { text: "I'm ", verb: "Writing a Blog" },
+                { text: "I'm ", verb: "Mentoring" },
+                { text: "I'm ", verb: "Presenting" },
+                { text: "I'm ", verb: "Developing Software" }
+              ];
+          
+              // Function to update the title
+              function updateTitle() {
+                var titleElements = document.getElementsByClassName("title-element");
+                var currentIndex = 0;
+          
+                // Set an interval to change the title every 1.5 seconds
+                setInterval(function () {
+                  var currentTitle = titles[currentIndex];
+                  var titleTextElement = titleElements[0];
+                  var titleVerbElement = titleElements[1];
+          
+                  titleTextElement.innerHTML = currentTitle.text;
+                  titleVerbElement.innerHTML = currentTitle.verb;
+          
+                  currentIndex = (currentIndex + 1) % titles.length;
+                }, 1500);
+              }
+          
+              // Function to calculate and set fixed-size-div height
+              function setFixedSizeDivHeight() {
+                var fixedSizeDiv = document.getElementById("fixed-size-div");
+                var titleHeight = fixedSizeDiv.offsetHeight + 2;
+                fixedSizeDiv.style.height = titleHeight + "px";
+              }
+          
+              // Call the functions when the page finishes loading
+              window.onload = function () {
+                updateTitle();
+                setFixedSizeDivHeight();
+              };
+            </script>
+          
+            <!--<h1>{{ site.description }}</h1>-->
+            <span class="subheading">(Not necessarily all at the same time)</span>
             <!-- {% if site.description %}
             <span class="subheading">{{ site.description }}</span>
             {% endif %}-->
