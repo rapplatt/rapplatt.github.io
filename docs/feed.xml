@@ -1,4 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-22T21:43:09+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rebecca Platt</title><subtitle>Writing Stories and Code</subtitle><author><name>Rebecca Platt</name></author><entry><title type="html">Is This Optimal?</title><link href="http://localhost:4000/2023/05/03/IsThisOptimal.html" rel="alternate" type="text/html" title="Is This Optimal?" /><published>2023-05-03T20:00:00+08:00</published><updated>2023-05-03T20:00:00+08:00</updated><id>http://localhost:4000/2023/05/03/IsThisOptimal</id><content type="html" xml:base="http://localhost:4000/2023/05/03/IsThisOptimal.html"><![CDATA[Recently, I've been thinking about optimisation and how I can go about optimising my life. Possibly as a way of procrastinating on actually doing the tasks on my to-do list; and probably also as a way of attempting to gain a sense of control in this odd reality.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-31T19:51:39+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Rebecca Platt</title><subtitle>Writing Stories and Code</subtitle><author><name>Rebecca Platt</name></author><entry><title type="html">Do’s and Don’ts of Presentation Slides</title><link href="http://localhost:4000/2023/05/31/PresentationSlideDesign.html" rel="alternate" type="text/html" title="Do’s and Don’ts of Presentation Slides" /><published>2023-05-31T10:00:00+08:00</published><updated>2023-05-31T10:00:00+08:00</updated><id>http://localhost:4000/2023/05/31/PresentationSlideDesign</id><content type="html" xml:base="http://localhost:4000/2023/05/31/PresentationSlideDesign.html"><![CDATA[If you have ever worried about not knowing how to give a good presentation, please know that it is not your fault.
+<p/>
+I have been in the audience for quite a few presentations over the years, and while there have been a few great ones here and there, I can’t say the same for most of them. Some presentations were immediately forgettable at best, while others were laid out in such a confusing way that by the end of it I still had no idea what they were talking about.
+<p/>
+I don't blame these presenters however. The vast majority of people are never taught how to give presentations. We get taught how to write, how to code, and many other skills required for our roles; but when it comes to presenting information in a clear and effective manner we are generally left to wing it. 
+<p/>
+The good news is, by taking the time to read this (and/or by searching for other tips online), you’re already one step closer to giving a great presentation. The fact you’re looking to improve shows that you care about delivering your topic well, and that alone will make it a better presentation. 
+<p/>
+In this post, I will only be covering tips for designing the layouts of your slides. All other aspects of presentations (for example; organising the content or managing nerves) will be covered in later posts. We are starting with how the slides look, because even the design can have a huge impact on the audience’s initial impression and expectations.
+<p/>
+A lot of the advice in this post is taken from the below talk by Damian Conway - so of you prefer a video format instead, I highly recommend watching that.
+<p/>
+<iframe class="youtube-video" src="https://www.youtube.com/embed/W_i_DrWic88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p/>
+
+One final disclaimer: Technically, all the advice given here is subjective and simply what I find to be effective. You can choose to follow all, some, or even none of it. That said, here are the “Do’s and Don’ts” of slide design.
+<p/>
+<h1>Do:</h1>
+<p/>
+<h4>✔ Only have one point per slide</h4>
+You can only talk about one point at a time. That means that everything on screen will either help or hinder you to convey that point effectively. Having more slides with a single point on each of them is more effective than listing multiple points on the same slide.
+<p/>
+<img src="/img/posts/AllOnOneSlide.png" alt="Single slide with static placeholder text over three lines" style="width:49%">
+<img src="/img/posts/SeparateSlides.gif" alt="Multiple slides with the same text but each line is shown in succession" style="width:49%">
+<blockquote class="blockquote"style="text-align: center;">Which of these do you think is more engaging?</blockquote>
+
+<p/>
+<h4>✔ Use pictures instead of text where possible</h4>
+They are worth a thousand words after all - images are more dynamic and engaging that plain text alone can every be. When using pictures, make sure:
+<ul>
+    <li>The images are high quality. Blurry and pixelated images will distract from your message, and it can look like you didn’t care enough to find a better quality image. (If it looks like the presenter doesn’t care, why should the audience?)</li>
+    <li>There are no watermarks on the images.</li>
+    <li>Fill the whole slide with the image when possible, don’t just drop the image in the centre.</li>
+</ul>
+<p/>
+If it’s an image with a transparent background (or if it doesn’t make sense to fill the whole slide with it, align it in the centre with these shortcuts:
+<p/>
+<a href="https://support.microsoft.com/en-us/office/align-and-arrange-objects-on-a-slide-5f961535-a2ae-4914-a24a-94c669903ae3"target="_blank">For PowerPoint:</a>
+<blockquote class="blockquote">
+    <ol>
+        <li>
+            Select the objects you want to align.
+            <br/>Press Shift to select multiple objects.
+        </li>
+        <li>Select <b>Picture format > Align</b> and select how you want to align them:
+        <br/>
+        <ul>
+            <li>Align Left, Align Center, or Align Right</li>
+            <li>Align Top, Align Middle, or Align Bottom</li>
+            <li>Distribute Horizontally or Distribute Vertically</li>
+        </ul>
+        </li>
+    </ol>
+</blockquote>
+<a href="https://www.canva.com/en_au/help/layer-group-align/"target="_blank">For Canva:</a>
+<blockquote class="blockquote">
+    <ol>
+        <li>Click the element you want to edit.</li>
+        <li>To select multiple elements, hold Shift on your keyboard, and click to add other elements to the selection.</li>
+        <li>On the toolbar above the editor, click Position, and refer below depending on what you want to do. If you don’t see it, click the button first.</li>
+    </ol>
+<b>Aligning elements</b>
+<ul>
+    <li><b>Align to page.</b> These options become available when there’s only one element selected. They use your design page as the point of reference for alignment.</li>
+    <li><b>Align elements.</b> These appear when you have more than one element selected. They use the positions of all selected elements as the basis for alignment.</li>
+</ul>
+</blockquote>
+If you can’t use an image and plan to use text, then…
+<p/>
+<h4>✔ Increase the font size</h4>
+If you have an in person audience, 60pt is the minimum font size that I recommend. After all, when you are presenting to a larger audience, the text needs to be clearly visible from the very back. If you (like most people these days) have an online audience, I can understand why you might think that there would be more flexibility, and that we could allow smaller fonts -  but no, it should still be 60pt at least. The reasons are that:
+<ul>
+    <li>Accessibility should still be considered - you don’t know how good or bad the eyesight of everyone in your audience is.</li>
+    <li>You do not have control over what device they are using - they could be watching on a smaller device like their phone.</li>
+</ul>
+Finally, smaller fonts should also be avoided as  they can tempt you to put more information on the screen at once, creating a wall of text which will distract and dilute from the point you are making.
+<p/>
+<h4>✔ Use accessible colours</h4>
+Projectors are evil, and screens can be evil too. When presenting in a new location, will you know what the technology set up will be? What do you do if you have to (as an example) present on a projector that only works in greyscale? If you ensure that you use a more accessible array of colours with a decent contrast between them, you will have slides that will work with any problems that the projectors and screens can throw at you (as well as being inclusive to more of your audience members!). 
+<ul>
+    <li>Higher contrast (such as white on black for example) almost always helps.</li>
+    <li>Cyan, dark blue, yellow, and red are all effective colours that tend to work even for those with colour impairment.
+    </li>
+</ul>
+There are a number of tools available for you to test your slides level of contrast and accessibility in general. Some that I recommend are:
+<ul>
+    <li><a href="https://webaim.org/resources/contrastchecker/"target="_blank">WebAIM: Contrast Checker</a></li>
+    <li><a href="https://support.microsoft.com/en-us/office/make-your-powerpoint-presentations-accessible-to-people-with-disabilities-6f7772b2-2f33-4bd2-8ca7-dae3b2b3ef25"target="_blank">“Make your PowerPoint presentations accessible to people with disabilities” by Microsoft</a></li>
+</ul>
+<p/>
+<h4>✔ Have a consistent style</h4>
+Having a consistent theme across your slides shows the audience that you care, and also implies that the talk you are giving is somewhat cohesive. Having half the slides in one design style and the rest in a completely different style may confuse the audience, as if you have stitched two separate topics together Frankenstein-style.
+<p/>
+<h4>✔ Use multiple levels of differentiation when showing complex data (like code)</h4>
+For this one, I’m going to refer to the video I mentioned at the start - starting at timestamp <a href="https://youtu.be/W_i_DrWic88?t=4193"target="_blank">1:09:53</a>:
+<iframe class="youtube-video" src="https://www.youtube.com/embed/W_i_DrWic88?start=4193" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p/>
+<hr>
+<p/>
+<h1>Don’t:</h1>
+<p/>
+<h4>❌ Have a wall of text up there. Not even with bullet points.</h4>
+People will stop listening and start reading instead. If they can understand the entirety of the contents of the talk from reading the slides, then why are you up there presenting? Also people can generally read faster than you talk. Letting them read all the content also means making them wait until you’re finished speaking to get to the next slide, which can cause frustration or boredom.
+<p/>
+<h4>❌ Put your logo on every slide</h4>
+Elements that stay in the same place on every slide attract attention - but if those elements are not related to the point you are making at that time they attract it away from what you’re saying. Also it looks like advertising, which people often don’t like.
+<p/>
+If you have/want to include your company logo / social links / other information like that, then put them on the first and last slide. Having them on those slides will still ensure that the people see them, but won’t take away from the talk itself.
+<p/>
+<h4>❌ Show a slide counter</h4>
+Or bar, or anything that shows the progression of time.
+<p/>
+People will watch that instead, and then they can’t help but plan what they are doing next (such as their next meeting). Which means they’re no longer paying attention to your talk.
+<p/>
+<blockquote class="blockquote" style="text-align: center;">When they open PowerPoint and you see “Slide 1 of 256”</blockquote>
+<img src="/img/posts/elisa-ventur.jpg" alt="Photo of person looking at laptop in despair" style="width:100%">
+<blockquote class="blockquote" style="text-align: center;">Photo by <a href="https://unsplash.com/es/@elisa_ventur?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"target="_blank">Elisa Ventur</a> on <a href="https://unsplash.com/photos/yjHh4JpZQT8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"target="_blank">Unsplash</a></blockquote>
+<p/>
+<h4>❌ Use a laser pointer</h4>
+Not only does it do a terrible job at highlighting parts of the slide for in person audiences, it doesn’t work at all for the online audience.
+<p/>
+The people who can see it will show you that humans are actually cats - they will watch the moving light and be distracted from what you’re saying.
+<p/>
+If you feel that you need to use one, that means that your slides need updating. Either your slides are not already clearly highlighting the current point being made, or more likely you have more than one point on your slide.
+<p/>
+<h4>❌ Design the slides to be used as notes afterwards</h4>
+Slides are there to help supplement your talk, not to contain its entirety.
+<p/>
+If you want to send the audience your notes of the points covered afterwards, write a separate document to share with them instead. They will appreciate having an easy to read document instead of having to flick through presentation slides.
+<p/>
+<hr>
+<p/>
+Follow these tips for your presentations, and you will be well on your way to delivering a more impactful, effective, and interesting talk.If you know any other tips and tricks, share and let everyone know in the comments section below.]]></content><author><name>Rebecca Platt</name></author><summary type="html"><![CDATA[If you have ever worried about not knowing how to give a good presentation, please know that it is not your fault. I have been in the audience for quite a few presentations over the years, and while there have been a few great ones here and there, I can’t say the same for most of them. Some presentations were immediately forgettable at best, while others were laid out in such a confusing way that by the end of it I still had no idea what they were talking about. I don't blame these presenters however. The vast majority of people are never taught how to give presentations. We get taught how to write, how to code, and many other skills required for our roles; but when it comes to presenting information in a clear and effective manner we are generally left to wing it. The good news is, by taking the time to read this (and/or by searching for other tips online), you’re already one step closer to giving a great presentation. The fact you’re looking to improve shows that you care about delivering your topic well, and that alone will make it a better presentation. In this post, I will only be covering tips for designing the layouts of your slides. All other aspects of presentations (for example; organising the content or managing nerves) will be covered in later posts. We are starting with how the slides look, because even the design can have a huge impact on the audience’s initial impression and expectations. A lot of the advice in this post is taken from the below talk by Damian Conway - so of you prefer a video format instead, I highly recommend watching that.]]></summary></entry><entry><title type="html">Is This Optimal?</title><link href="http://localhost:4000/2023/05/03/IsThisOptimal.html" rel="alternate" type="text/html" title="Is This Optimal?" /><published>2023-05-03T20:00:00+08:00</published><updated>2023-05-03T20:00:00+08:00</updated><id>http://localhost:4000/2023/05/03/IsThisOptimal</id><content type="html" xml:base="http://localhost:4000/2023/05/03/IsThisOptimal.html"><![CDATA[Recently, I've been thinking about optimisation and how I can go about optimising my life. Possibly as a way of procrastinating on actually doing the tasks on my to-do list; and probably also as a way of attempting to gain a sense of control in this odd reality.
 <p/>
 Anyway, with the sheer <a href="https://time.com/3859238/career-productivity-optimize/" target="_blank">number</a> of <a href="https://www.entrepreneur.com/living/8-time-management-hacks-to-optimize-your-life-in-and/322152" target="_blank">articles</a> on <a href="https://www.calendar.com/blog/14-calendar-hacks-to-help-you-optimize-and-save-time/" target="_blank">optimisation</a> out <a href="https://hbr.org/2021/02/4-ways-to-get-more-done-in-less-time" target="_blank">there</a>, it's reasonable to assume that I'm not the only one thinking about this.
   
