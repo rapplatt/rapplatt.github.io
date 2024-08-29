@@ -2535,7 +2535,7 @@ footer a:focus, footer a:hover { color: #663399; }
 
 header.masthead { margin-bottom: 50px; background: no-repeat center center; background-color: #663399; background-attachment: scroll; position: relative; background-size: cover; }
 
-header.masthead .overlay { position: absolute; top: 0; left: 0; height: 100%; width: 100%; background-color: #251238; opacity: 0.7; }
+header.masthead .overlay { position: absolute; top: 0; left: 0; height: 100%; width: 100%; background-color: #251238; opacity: 0.75; }
 
 header.masthead .page-heading, header.masthead .post-heading, header.masthead .site-heading { padding: 200px 0 150px; color: white; }
 
