@@ -96,3 +96,28 @@ img::-moz-selection {
     aspect-ratio: 16 / 9;
     width: 100%;
   }
+
+.white-section {
+background-color: white;
+margin-top: -2px;
+}
+
+.purple-section {
+background-color: #371750;
+color: white;
+margin-top: -2px;
+}
+
+.blue-section {
+    background-color: #24C8FF;
+    margin-top: -2px;
+    }
+
+.wave-divider {
+position: relative;
+overflow: hidden;
+}
+
+.wave-divider svg {
+display: block;
+}

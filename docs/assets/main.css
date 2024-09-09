@@ -2436,6 +2436,16 @@ img::-moz-selection { color: #fff; background: transparent; }
 
 .youtube-video { aspect-ratio: 16 / 9; width: 100%; }
 
+.white-section { background-color: white; margin-top: -2px; }
+
+.purple-section { background-color: #371750; color: white; margin-top: -2px; }
+
+.blue-section { background-color: #24C8FF; margin-top: -2px; }
+
+.wave-divider { position: relative; overflow: hidden; }
+
+.wave-divider svg { display: block; }
+
 .btn { font-size: 14px; font-weight: 800; padding: 15px 25px; letter-spacing: 1px; text-transform: uppercase; border-radius: 0; font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
 .btn-primary { background-color: #663399; border-color: #663399; }
