@@ -121,3 +121,9 @@ overflow: hidden;
 .wave-divider svg {
 display: block;
 }
+
+.less-fixed-top {
+    right: 0;
+    left: 0;
+    z-index: 1032;
+  }
