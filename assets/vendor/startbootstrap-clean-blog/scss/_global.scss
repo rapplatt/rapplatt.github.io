@@ -126,4 +126,10 @@ display: block;
     right: 0;
     left: 0;
     z-index: 1032;
-  }
+}
+
+iframe {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    aspect-ratio: 16 / 9; /* Maintain a 16:9 aspect ratio */
+}
