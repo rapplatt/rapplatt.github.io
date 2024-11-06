@@ -169,7 +169,7 @@ mark, .mark { padding: 0.2em; background-color: #fcf8e3; }
 
 .figure-caption { font-size: 90%; color: #6c757d; }
 
-code { font-size: 87.5%; color: #e83e8c; word-wrap: break-word; }
+code { font-size: 87.5%; color: #9B1252; word-wrap: break-word; }
 
 a > code { color: inherit; }
 
@@ -177,7 +177,7 @@ kbd { padding: 0.2rem 0.4rem; font-size: 87.5%; color: #fff; background-color: #
 
 kbd kbd { padding: 0; font-size: 100%; font-weight: 700; }
 
-pre { display: block; font-size: 87.5%; color: #212529; }
+pre { display: block; font-size: 87.5%; color: #9B1252; background-color: #f1f1f1; padding: 2%; }
 
 pre code { font-size: inherit; color: inherit; word-break: normal; }
 
