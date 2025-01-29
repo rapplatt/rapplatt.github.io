@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Making Flash Cards in Excel"
+subtitle: "Learning about a whole new topic can be hard"
+date: 2025-01-29 10:00:00 +0800
+background: '/img/posts/2024-08-29-bg.jpg'
+comments: true 
+---
+
+Learning about a whole new topic can be hard. Even when it’s a topic that’s building on foundational knowledge you already know, it can be difficult depending on which learning techniques you use. I wanted to have a better understanding of <a href="https://datatracker.ietf.org/doc/html/rfc6749" target="_blank">OAuth</a>. Since reading <a href="https://www.google.com.au/books/edition/_/oneWAwAAQBAJ?hl=en" target="_blank">Make It Stick by Henry L. Roediger III, Mark A. McDaniel, and Peter C. Brown</a>, I knew that one effective way to embed learning was by practicing information retrieval, I decided to make myself (virtual) flash cards to test with.
+<p></p>
+Now, I could have used an existing app such as <a href="https://apps.ankiweb.net/" target="_blank">Anki</a>, but as I was procrastinating as much as possible, I decided to build my own flash card generator using Microsoft Excel.
+<p></p>
+I figure others might like access to it as well for their own flash cards, so I've put a template version of it on <a href="https://github.com/rapplatt/FlashcardsExcel" target="_blank">GitHub</a>.
+<p></p>
+<h2>How it works</h2>
+The main data is located over five columns: Questions, Answers, Weight, Random, and Result.
+<p></p>
+<b>Questions</b> are the 'front' of the flashcard, and what will initially be shown to the user.
+<p></p>
+<b>Answers</b> are the 'back' of the card. Just because the columns are named this way does not mean that you have to structure your flashcards in a question and answer format.
+<p></p>
+<b>Weight</b> refers to the weighting of each card. Initially they all start at zero, and then the value is increased or decreased when you use the card, depending on whether you answered correctly or not.
+<p></p>
+<b>Random</b> is a random value between 0 and 1, e.g. 0.3659.
+<p></p>
+<b>Result</b> is Weight plus Random, as this creates a randomised order for the cards with a slight weighting towards cards that have been answered incorrectly. The lowest value in the Result column is selected first, so through this weighting system incorrectly answered cards will appear more frequently. (And vice versa, correctly answered cards appear less often.)
+<p></p>
+On the second sheet is a button, which contains the link to the macros that support the flashcard functionality.
+<p></p>
+Macros are Excel's way of automating actions, and so they can be used to run basic commands.
+<p></p>
+Click the button, and a new window opens, with the question part of a flashcard displayed. Read the question and once you have thought of an answer, select reveal to see what the answer is. If you were correct then select yes, otherwise select no. At this point the numbers are randomised again and a new card is the new lowest value, and the cycle begins again. Over time you will be able to see on the first sheet which flash cards you consistently struggle with, and you can use that to know what you need to focus on.
+<p></p>
+There's a few additional features that could be added here, but that's probably enough procrastinating for me for now. I have found that using the cards has been rather useful for building out my understanding of OAuth. That said, you do actually have to revise with the cards in order for it to work, so it's time to get back to learning. If you <a href="https://github.com/rapplatt/FlashcardsExcel" target="_blank">download the the flash cards excel</a> let me know if it helps you - I'd love to know what topics you're using it for!
+<p></p>

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    Making Flash Cards in Excel - Rebecca Platt
+    
+  </title>
+
+  <meta name="description" content="Learning about a whole new topic can be hard. Even when it’s a topic that’s building on foundational knowledge you already know, it can be difficult dependin...">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <script src="https://use.fontawesome.com/releases/v6.6.0/js/all.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/2025/01/29/FlashcardExcel.html">
+  <link rel="alternate" type="application/rss+xml" title="Rebecca Platt" href="/feed.xml">
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Making Flash Cards in Excel | Rebecca Platt</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Making Flash Cards in Excel" />
+<meta name="author" content="Rebecca Platt" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Learning about a whole new topic can be hard. Even when it’s a topic that’s building on foundational knowledge you already know, it can be difficult depending on which learning techniques you use. I wanted to have a better understanding of OAuth. Since reading Make It Stick by Henry L. Roediger III, Mark A. McDaniel, and Peter C. Brown, I knew that one effective way to embed learning was by practicing information retrieval, I decided to make myself (virtual) flash cards to test with. Now, I could have used an existing app such as Anki, but as I was procrastinating as much as possible, I decided to build my own flash card generator using Microsoft Excel. I figure others might like access to it as well for their own flash cards, so I’ve put a template version of it on GitHub. How it works The main data is located over five columns: Questions, Answers, Weight, Random, and Result. Questions are the ‘front’ of the flashcard, and what will initially be shown to the user. Answers are the ‘back’ of the card. Just because the columns are named this way does not mean that you have to structure your flashcards in a question and answer format. Weight refers to the weighting of each card. Initially they all start at zero, and then the value is increased or decreased when you use the card, depending on whether you answered correctly or not. Random is a random value between 0 and 1, e.g. 0.3659. Result is Weight plus Random, as this creates a randomised order for the cards with a slight weighting towards cards that have been answered incorrectly. The lowest value in the Result column is selected first, so through this weighting system incorrectly answered cards will appear more frequently. (And vice versa, correctly answered cards appear less often.) On the second sheet is a button, which contains the link to the macros that support the flashcard functionality. Macros are Excel’s way of automating actions, and so they can be used to run basic commands. Click the button, and a new window opens, with the question part of a flashcard displayed. Read the question and once you have thought of an answer, select reveal to see what the answer is. If you were correct then select yes, otherwise select no. At this point the numbers are randomised again and a new card is the new lowest value, and the cycle begins again. Over time you will be able to see on the first sheet which flash cards you consistently struggle with, and you can use that to know what you need to focus on. There’s a few additional features that could be added here, but that’s probably enough procrastinating for me for now. I have found that using the cards has been rather useful for building out my understanding of OAuth. That said, you do actually have to revise with the cards in order for it to work, so it’s time to get back to learning. If you download the the flash cards excel let me know if it helps you - I’d love to know what topics you’re using it for!" />
+<meta property="og:description" content="Learning about a whole new topic can be hard. Even when it’s a topic that’s building on foundational knowledge you already know, it can be difficult depending on which learning techniques you use. I wanted to have a better understanding of OAuth. Since reading Make It Stick by Henry L. Roediger III, Mark A. McDaniel, and Peter C. Brown, I knew that one effective way to embed learning was by practicing information retrieval, I decided to make myself (virtual) flash cards to test with. Now, I could have used an existing app such as Anki, but as I was procrastinating as much as possible, I decided to build my own flash card generator using Microsoft Excel. I figure others might like access to it as well for their own flash cards, so I’ve put a template version of it on GitHub. How it works The main data is located over five columns: Questions, Answers, Weight, Random, and Result. Questions are the ‘front’ of the flashcard, and what will initially be shown to the user. Answers are the ‘back’ of the card. Just because the columns are named this way does not mean that you have to structure your flashcards in a question and answer format. Weight refers to the weighting of each card. Initially they all start at zero, and then the value is increased or decreased when you use the card, depending on whether you answered correctly or not. Random is a random value between 0 and 1, e.g. 0.3659. Result is Weight plus Random, as this creates a randomised order for the cards with a slight weighting towards cards that have been answered incorrectly. The lowest value in the Result column is selected first, so through this weighting system incorrectly answered cards will appear more frequently. (And vice versa, correctly answered cards appear less often.) On the second sheet is a button, which contains the link to the macros that support the flashcard functionality. Macros are Excel’s way of automating actions, and so they can be used to run basic commands. Click the button, and a new window opens, with the question part of a flashcard displayed. Read the question and once you have thought of an answer, select reveal to see what the answer is. If you were correct then select yes, otherwise select no. At this point the numbers are randomised again and a new card is the new lowest value, and the cycle begins again. Over time you will be able to see on the first sheet which flash cards you consistently struggle with, and you can use that to know what you need to focus on. There’s a few additional features that could be added here, but that’s probably enough procrastinating for me for now. I have found that using the cards has been rather useful for building out my understanding of OAuth. That said, you do actually have to revise with the cards in order for it to work, so it’s time to get back to learning. If you download the the flash cards excel let me know if it helps you - I’d love to know what topics you’re using it for!" />
+<link rel="canonical" href="http://localhost:4000/2025/01/29/FlashcardExcel.html" />
+<meta property="og:url" content="http://localhost:4000/2025/01/29/FlashcardExcel.html" />
+<meta property="og:site_name" content="Rebecca Platt" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-01-29T10:00:00+08:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Making Flash Cards in Excel" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Rebecca Platt"},"dateModified":"2025-01-29T10:00:00+08:00","datePublished":"2025-01-29T10:00:00+08:00","description":"Learning about a whole new topic can be hard. Even when it’s a topic that’s building on foundational knowledge you already know, it can be difficult depending on which learning techniques you use. I wanted to have a better understanding of OAuth. Since reading Make It Stick by Henry L. Roediger III, Mark A. McDaniel, and Peter C. Brown, I knew that one effective way to embed learning was by practicing information retrieval, I decided to make myself (virtual) flash cards to test with. Now, I could have used an existing app such as Anki, but as I was procrastinating as much as possible, I decided to build my own flash card generator using Microsoft Excel. I figure others might like access to it as well for their own flash cards, so I’ve put a template version of it on GitHub. How it works The main data is located over five columns: Questions, Answers, Weight, Random, and Result. Questions are the ‘front’ of the flashcard, and what will initially be shown to the user. Answers are the ‘back’ of the card. Just because the columns are named this way does not mean that you have to structure your flashcards in a question and answer format. Weight refers to the weighting of each card. Initially they all start at zero, and then the value is increased or decreased when you use the card, depending on whether you answered correctly or not. Random is a random value between 0 and 1, e.g. 0.3659. Result is Weight plus Random, as this creates a randomised order for the cards with a slight weighting towards cards that have been answered incorrectly. The lowest value in the Result column is selected first, so through this weighting system incorrectly answered cards will appear more frequently. (And vice versa, correctly answered cards appear less often.) On the second sheet is a button, which contains the link to the macros that support the flashcard functionality. Macros are Excel’s way of automating actions, and so they can be used to run basic commands. Click the button, and a new window opens, with the question part of a flashcard displayed. Read the question and once you have thought of an answer, select reveal to see what the answer is. If you were correct then select yes, otherwise select no. At this point the numbers are randomised again and a new card is the new lowest value, and the cycle begins again. Over time you will be able to see on the first sheet which flash cards you consistently struggle with, and you can use that to know what you need to focus on. There’s a few additional features that could be added here, but that’s probably enough procrastinating for me for now. I have found that using the cards has been rather useful for building out my understanding of OAuth. That said, you do actually have to revise with the cards in order for it to work, so it’s time to get back to learning. If you download the the flash cards excel let me know if it helps you - I’d love to know what topics you’re using it for!","headline":"Making Flash Cards in Excel","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2025/01/29/FlashcardExcel.html"},"url":"http://localhost:4000/2025/01/29/FlashcardExcel.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/icons/favicon-16x16.png">
+  <link rel="manifest" href="/img/icons/site.webmanifest">
+  <link rel="mask-icon" href="/img/icons/safari-pinned-tab.svg" color="#757575">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+
+<body>
+
+  <!-- Navigation -->
+<!-- <div class="banner">
+    Vote for Rebecca in the <a href="https://witwaawards.awardstage.com/public/judging/carousel?EntryId=172955" target="_blank">2024 WiTWA Tech[+] Awards</a>
+  </div>-->
+<nav class="navbar navbar-expand-lg navbar-light less-fixed-top" id="mainNav">
+  
+  <div class="container">
+    <a class="navbar-brand" href="/">Rebecca Platt</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/talks">Talks</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/works">Published Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/posts">Posts</a>
+        </li>
+       <!-- <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>-->
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Page Header -->
+
+<header class="masthead" style="background-image: url('/img/posts/2024-08-29-bg.jpg')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Making Flash Cards in Excel</h1>
+            
+            <h2 class="subheading">Learning about a whole new topic can be hard</h2>
+            
+            <span class="meta">Posted <!--by
+              <a href="#">Rebecca Platt</a>-->
+              on January 29, 2025 &middot; <span class="reading-time" title="Estimated read time">
+  
+   4 mins  read </span>
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        Learning about a whole new topic can be hard. Even when it’s a topic that’s building on foundational knowledge you already know, it can be difficult depending on which learning techniques you use. I wanted to have a better understanding of <a href="https://datatracker.ietf.org/doc/html/rfc6749" target="_blank">OAuth</a>. Since reading <a href="https://www.google.com.au/books/edition/_/oneWAwAAQBAJ?hl=en" target="_blank">Make It Stick by Henry L. Roediger III, Mark A. McDaniel, and Peter C. Brown</a>, I knew that one effective way to embed learning was by practicing information retrieval, I decided to make myself (virtual) flash cards to test with.
+<p></p>
+Now, I could have used an existing app such as <a href="https://apps.ankiweb.net/" target="_blank">Anki</a>, but as I was procrastinating as much as possible, I decided to build my own flash card generator using Microsoft Excel.
+<p></p>
+I figure others might like access to it as well for their own flash cards, so I've put a template version of it on <a href="https://github.com/rapplatt/FlashcardsExcel" target="_blank">GitHub</a>.
+<p></p>
+<h2>How it works</h2>
+The main data is located over five columns: Questions, Answers, Weight, Random, and Result.
+<p></p>
+<b>Questions</b> are the 'front' of the flashcard, and what will initially be shown to the user.
+<p></p>
+<b>Answers</b> are the 'back' of the card. Just because the columns are named this way does not mean that you have to structure your flashcards in a question and answer format.
+<p></p>
+<b>Weight</b> refers to the weighting of each card. Initially they all start at zero, and then the value is increased or decreased when you use the card, depending on whether you answered correctly or not.
+<p></p>
+<b>Random</b> is a random value between 0 and 1, e.g. 0.3659.
+<p></p>
+<b>Result</b> is Weight plus Random, as this creates a randomised order for the cards with a slight weighting towards cards that have been answered incorrectly. The lowest value in the Result column is selected first, so through this weighting system incorrectly answered cards will appear more frequently. (And vice versa, correctly answered cards appear less often.)
+<p></p>
+On the second sheet is a button, which contains the link to the macros that support the flashcard functionality.
+<p></p>
+Macros are Excel's way of automating actions, and so they can be used to run basic commands.
+<p></p>
+Click the button, and a new window opens, with the question part of a flashcard displayed. Read the question and once you have thought of an answer, select reveal to see what the answer is. If you were correct then select yes, otherwise select no. At this point the numbers are randomised again and a new card is the new lowest value, and the cycle begins again. Over time you will be able to see on the first sheet which flash cards you consistently struggle with, and you can use that to know what you need to focus on.
+<p></p>
+There's a few additional features that could be added here, but that's probably enough procrastinating for me for now. I have found that using the cards has been rather useful for building out my understanding of OAuth. That said, you do actually have to revise with the cards in order for it to work, so it's time to get back to learning. If you <a href="https://github.com/rapplatt/FlashcardsExcel" target="_blank">download the the flash cards excel</a> let me know if it helps you - I'd love to know what topics you're using it for!
+<p></p>
+
+        <hr>
+
+        <div class="clearfix">
+
+          
+          <a class="btn btn-primary float-left" href="/2024/11/06/GraphQL-Refresher.html" data-toggle="tooltip" data-placement="top" title="GraphQL: I Don't Know What It Is And Now I'm Too Afraid To Ask">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          
+          
+
+
+           
+          <div id="disqus_thread"></div>
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    
+    var disqus_config = function () {
+    this.page.url = 'http://localhost:4000/2025/01/29/FlashcardExcel.html';  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = 'http://localhost:4000/2025/01/29/FlashcardExcel.html'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://rebeccaplatt.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+          
+
+          
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <br> 
+<div class="signup">
+    <div class="container">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            <div>
+                <h2>See new posts directly in your inbox</h2> 
+            </div>
+            <div style="margin: auto;">
+                <div id="custom-substack-embed" style="margin: auto;">
+                </div>
+                    <script>
+                          window.CustomSubstackWidget = {
+                            substackUrl: "rebeccaplatt.substack.com",
+                            theme: "custom",
+                            colors: {
+                              primary: "#663399",
+                              input: "#212529",
+                              email: "#FFFFFF",
+                              text: "#FFFFFF",
+                            }
+                          };
+                    </script>
+                    <script src="https://substackapi.com/widget.js" async></script>
+                </div>
+                <div class="row" style="margin: auto; padding-top: 10px; ">
+                    <h6 style="color: #e8e8e8">(Powered by Substack)</h6>
+                </div>
+            </div>
+        </div>  
+    </div>
+</div>
+
+
+
+  <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/ItsTechBec" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/rebecca-platt" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/rapplatt" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          
+          <li class="list-inline-item">
+            <a href="https://noti.st/rapplatt" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; Rebecca Platt 2025</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/scripts.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LEDQ9XSXSD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LEDQ9XSXSD');
+</script>
+
+
+
+</body>
+
+</html>
