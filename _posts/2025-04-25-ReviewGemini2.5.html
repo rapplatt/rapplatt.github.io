@@ -1,0 +1,46 @@
+---
+layout: post
+title: "Another AI Model Update: A Review of Gemini 2.5"
+subtitle: "Exploring Google's latest AI model and its ability to generate functional code"
+date: 2025-04-25 10:00:00 +0800
+background: '/img/posts/google-gemini.jpg'
+comments: true 
+---
+
+It seems like every time you turn around, there's a new AI technology. Last month there were several, but the one I want to highlight today is <a href="https://blog.google/technology/google-deepmind/gemini-model-thinking-updates-march-2025/" target="_blank">Gemini 2.5 by Google</a>. It was released the same day as the <a href="https://openai.com/index/introducing-4o-image-generation/" target="_blank">image generation feature in OpenAI's GPT‑4o</a>, which of course meant that Gemini's arrival was overshadowed by the internet's newfound love of recreating everything in the Studio Ghibli art style.
+<p/>
+
+<img src="https://substackcdn.com/image/fetch/w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6b129ac5-b0ba-4483-9b0d-7b2e82d35c4d_2016x2016.jpeg" alt="Studio Ghibli style portrait of Rebecca Platt" width="60%" style="display:block;margin-left:auto;margin-right:auto;">
+<blockquote class="blockquote"style="text-align: center;">Results may vary.</blockquote>
+
+<p/>
+Even so, I heard Gemini was quite good so I thought I'd give it a whirl.
+<p/>
+My benchmark for testing the coding capabilities of any AI is to see how well it can build a dress-up game, assuming assets are provided.
+Attempts with the first publicly available ChatGPT and other early Large Language Models (LLMs) didn't go so well. The request sounds simple initially, but as you start determining the steps required to make such a game the hidden complexities begin to reveal themselves. The early LLMs would certainly try but were not able to provide code that functioned to a sufficient standard for the request.
+<p/>
+Gemini 2.5 however, had no problems talking me through the steps of my request. This included even letting it propose which language and frameworks to use based on suitability.
+<p/>
+Gemini is a 'thinking' model, which roughly translated means it can review its reasoning and alter its approach based on this. I like that you can see its thought process, and why it outputs what it does.
+As the instructions I gave were fairly vague, it asked clarifying questions to determine the most appropriate design and then got started.
+<p/>
+The code it generated did still have some errors. That said, when given the error message it was able to both explain the issue and provide a decent solution. The fixes worked well most of the time, and after a fairly short period of time we had a working dress up game proof of concept. So while it wasn't a flawless process, the game was set up much faster than my previous attempts to build it manually.
+<p/>
+Now, despite working in tech for so long I had never done any Python scripting before, so I thought for my second experiment it would be a good test to see if Gemini could still deliver even when the user was less familiar with the subject. I asked it to create a fairly complex record data migration script. It handled most of the requests for this well too, however it did sometimes ‘forget’ about previous requirements sent, as it would adjust the code as required for the latest request but occasionally it would do so in a way that impacted a previously requested feature.
+<p/>
+It handled the data migration script so well that I gave it an extra challenge - migrating poorly structured data from a PDF. Amazingly, it handled that task excellently - I was rather impressed.
+<p/>
+It would be remiss of me to not include a caveat here, that while the technology is improving rapidly it is still not currently at a point where you can forgo understanding the produced code and just leave everything up to AI. For personal projects like I described above AI is hugely beneficial in the initial phases of design and implementation, but its limitations of context mean that it is less effective during feature refinement and general maintenance and debugging, aka a huge part of development.
+<p/>
+For me, this was evident during the development process as I found that it kept forgetting session history. When I returned the following day to continue I had to get Gemini back up to speed with the current status before we could continue.
+<p/>
+Gemini is not actually the LLM most praised for its coding abilities - which at the time of writing appears to be Claude 3.7. When compared with other AI models in bench tests, it excelled across multiple areas.
+<p/>
+
+
+<img src="https://www.anthropic.com/_next/image?url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F654cf6680d32858dfba9af644f8c4a5b04425af1-2600x2360.png&w=3840&q=75" alt="Benchmark table comparing frontier reasoning models, showing Claude 3.7 with the highest results" width="100%">
+<blockquote class="blockquote"style="text-align: center;">Source: <a href="https://www.anthropic.com/news/claude-3-7-sonnet" target="_blank">Anthropic</a></blockquote>
+
+<p/>
+Despite this, the fact that an AI that's considered 'average' for coding output could still produce what I requested to such a high quality is brilliant. If you are starting a personal project and want to use AI for brainstorming and initial development, it's well worth giving Gemini a go.
+<p/>
